@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sub-header">
+        <nav>
+          <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+          <div class="nav-links" id="nav-links">
+             <img class="close" src="eduford_img/close.png" alt="" onclick="hidemenu()">
+              <ul>
+                 <a href="index.html"><li>HOME</li></a> 
+                 <a href="About.html"><li>ABOUT</li></a>
+                 <a href="course.html"><li>COURSE</li></a>
+                 <a href="blog.html"><li>BLOGS</li></a>
+                 <a href="contact.html"><li>CONTACT</li></a> 
+              </ul>
+          </div>
+            <img class="menu" src="eduford_img/menu.png" alt="" onclick="showmenu()">
+        </nav>
+          <h1>Our Courses</h1>
+         </div>
+
+         <div id="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum sapiente optio, voluptate voluptatem debitis nihil explicabo quam quod minus ad quia similique necessitatibus, rem pariatur cumque ratione mollitia quibusdam architecto?</p>
+      
+            <div id="row">
+              <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem magnam reiciendis repellendus esse quis veniam, delectus soluta hic amet explicabo, laborum eum nisi expedita atque error temporibus nemo, placeat porro?</p>
+              </div>
+      
+              <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem magnam reiciendis repellendus esse quis veniam, delectus soluta hic amet explicabo, laborum eum nisi expedita atque error temporibus nemo, placeat porro?</p>
+              </div>
+      
+              <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem magnam reiciendis repellendus esse quis veniam, delectus soluta hic amet explicabo, laborum eum nisi expedita atque error temporibus nemo, placeat porro?</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus praesentium perferendis id quod quae architecto provident, aut veritatis pariatur harum eaque minima deserunt corporis error illo odit labore repudiandae distinctio.</p>
+      
+            <div id="row">
+              <div class="facilities-col">
+                <img src="eduford_img/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sunt quasi optio nihil animi, quae ipsa natus culpa id fugiat similique, doloremque reiciendis error a!</p>
+              </div>
+      
+              <div class="facilities-col">
+                <img src="eduford_img/basketball.png" alt="">
+                <h3>World Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sunt quasi optio nihil animi, quae ipsa natus culpa id fugiat similique, doloremque reiciendis error a!</p>
+              </div>
+      
+              <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" alt="">
+                <h3>Tasty And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sunt quasi optio nihil animi, quae ipsa natus culpa id fugiat similique, doloremque reiciendis error a!</p>
+              </div>
+            </div>
+          </div>
+
+
+
+         <div id="footer">
+            <h4>About Us</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium, unde, doloribus laudantium <br> id quaerat consequatur amet numquam ex, inventore asperiores in ipsum ab? Saepe.</p>
+            <div class="icon">
+              <img src="eduford_img/facebook.png" alt="">
+              <img src="eduford_img/twitter.png" alt="">
+              <img src="eduford_img/instagram.png" alt="">
+              <img src="eduford_img/linkedin.png" alt="">
+            </div>
+           </div>
+
+
+           <script>
+            var navlinks=document.getElementById("nav-links");
+            function showmenu(){
+              navlinks.style.right="0"
+            }
+            function hidemenu(){
+                 navlinks.style.right="-200px"
+            } 
+          </script>
+</body>
+</html>
